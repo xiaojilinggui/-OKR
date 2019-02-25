@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f7f7f7;
+}
+.headline {
+  font-size: 0.36rem;
+  font-family: "PingFang SC";
+  color: #000000;
+  line-height: 1.167;
+}
+.container-main {
+  height: 100%;
+  width: 86.7%;
+  background: #fff;
+  margin: 0.5rem auto;
+  border-radius: 0.3rem;
+}
+.container-main .coatmain {
+  margin: 0.2rem 0.4rem;
+}
+.container-main .coatmain .Object-item .text-content {
+  padding: 0.1rem;
+  margin: 0.1rem 0;
+  background-color: #f2f8fc;
+}
+.container-main .coatmain .Object-item .text-content p {
+  font-size: 0.37333333rem;
+  font-family: "PingFang SC";
+  color: #333333;
+}
+.container-main .coatmain .keyresult-item .key-text-content {
+  padding: 0.1rem;
+  margin: 0.1rem 0;
+  background-color: #f2f8fc;
+}
+.container-main .coatmain .keyresult-item .key-text-content p {
+  font-size: 0.37333333rem;
+  font-family: "PingFang SC";
+  color: #333333;
+}
+.container-main .coatmain .decline-item .data-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.28rem;
+  background-color: #f2f8fc;
+  height: 0.44rem;
+}
+.container-main .coatmain .decline-item .data-item .dataEnd {
+  margin-left: 0.1rem;
+}
+.container-main .coatmain .decline-item .data-item .dataGood {
+  display: flex;
+}
+.compile-btn {
+  width: 86.7%;
+  margin: 0 auto;
+}
+.compile-btn .compile {
+  font-size: 0.42666667rem;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  outline: none;
+  height: 1.17333333rem;
+}
